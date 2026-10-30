@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Wasio | Web Developer &amp; IT Student</title>
+  <meta name="description" content="Portfolio of Abdul Wasio, BS Information Technology student, aspiring web developer with an interest in cybersecurity." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">AW<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Home ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">Hello, I'm</p>
+        <h1 class="reveal">Abdul Wasio</h1>
+        <h2 class="reveal">Aspiring Web Developer <span class="accent">&amp;</span> Cybersecurity Enthusiast</h2>
+        <p class="hero-text reveal">
+          BS Information Technology student building secure, responsive and user-friendly web applications.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>
+              I am a BS Information Technology student with a strong interest in web development.
+              I enjoy turning ideas into working websites, from the layout you see in the browser
+              to the server and database behind it.
+            </p>
+            <p>
+              I am also curious about cybersecurity, and I try to build safely from the start:
+              hashing passwords, validating input and using parameterized database queries.
+            </p>
+          </div>
+          <div class="card reveal">
+            <h3>Career Interests</h3>
+            <ul class="check-list">
+              <li>Full-stack web development</li>
+              <li>Secure coding practices</li>
+              <li>Backend APIs and databases</li>
+              <li>Cybersecurity fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills (loaded from the database) ===== -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid" id="skillsGrid">
+          <p class="muted">Loading skills...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3>BS Information Technology</h3>
+            <p class="muted">Currently pursuing</p>
+            <p>Studying programming, databases, networking, web technologies and information security.</p>
+          </div>
+          <!-- Add more qualifications by copying the block above (e.g. Intermediate, Matriculation) -->
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <h3>Intermediate / Previous Qualification</h3>
+            <p class="muted">Completed</p>
+            <p>Edit this block with your school or college name and year.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Certifications (loaded from the database) ===== -->
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <h2 class="section-title reveal">Certifications</h2>
+        <div class="cards-grid" id="certGrid">
+          <p class="muted">Loading certificates...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects (loaded from the database) ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="cards-grid" id="projectGrid">
+          <p class="muted">Loading projects...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p>Have a question, an opportunity or just want to say hello? Send me a message and I will reply as soon as I can.</p>
+          </div>
+          <form id="contactForm" class="card form reveal" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" maxlength="100" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" maxlength="150" required />
+
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" maxlength="150" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" maxlength="2000" required></textarea>
+
+            <button type="submit" class="btn btn-primary" id="sendBtn">Send Message</button>
+            <p id="formStatus" class="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Abdul Wasio. Built with HTML, CSS, JavaScript, Node.js, Express and MySQL.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

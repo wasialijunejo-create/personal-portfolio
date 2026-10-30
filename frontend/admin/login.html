@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Admin Login | Abdul Wasio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="login-box container">
+    <form id="loginForm" class="card form" novalidate>
+      <h2>Admin Login</h2>
+      <label for="username">Username</label>
+      <input id="username" type="text" autocomplete="username" required />
+      <label for="password">Password</label>
+      <input id="password" type="password" autocomplete="current-password" required />
+      <button class="btn btn-primary" type="submit" id="loginBtn">Log in</button>
+      <p id="loginStatus" class="form-status err" role="status"></p>
+      <p><a href="../index.html">&larr; Back to website</a></p>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
