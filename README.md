@@ -43,7 +43,7 @@ personal-portfolio/
 
 1. **Get the code**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/personal-portfolio.git
+   git clone https://github.com/wasialijunejo/personal-portfolio.git
    cd personal-portfolio/backend
    npm install
    ```
@@ -107,7 +107,7 @@ git add .
 git status            # check that .env and node_modules are NOT listed
 git commit -m "Initial commit: personal portfolio"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/personal-portfolio.git
+git remote add origin https://github.com/wasialijunejo/personal-portfolio.git
 git push -u origin main
 ```
 Create the empty `personal-portfolio` repository on github.com first. If you ever commit a password by

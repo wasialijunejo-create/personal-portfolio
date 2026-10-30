@@ -87,10 +87,10 @@ INSERT INTO certificates (title, issuer, issue_date, credential_url) VALUES
   ('Sample: Cybersecurity Essentials',     'Replace with issuer', '2026-03-20', NULL),
   ('Sample: Database Management with MySQL','Replace with issuer', '2026-05-10', NULL);
 
--- Replace YOUR-USERNAME with your GitHub username (or edit later in the admin dashboard)
+-- Replace wasialijunejo with your GitHub username (or edit later in the admin dashboard)
 INSERT INTO projects (title, description, tech_stack, repo_url) VALUES
-  ('Personal Portfolio',   'This full-stack portfolio with a contact form, admin dashboard and MySQL database.', 'Node.js, Express, MySQL, JavaScript', 'https://github.com/YOUR-USERNAME/personal-portfolio'),
-  ('Project Two',          'Short description of your second GitHub project.', 'HTML, CSS, JavaScript', 'https://github.com/YOUR-USERNAME/project-two'),
-  ('Project Three',        'Short description of your third GitHub project.',  'Node.js, Express',      'https://github.com/YOUR-USERNAME/project-three'),
-  ('Project Four',         'Short description of your fourth GitHub project.', 'MySQL, Node.js',        'https://github.com/YOUR-USERNAME/project-four'),
-  ('Project Five',         'Short description of your fifth GitHub project.',  'HTML, CSS, Bootstrap',  'https://github.com/YOUR-USERNAME/project-five');
+  ('Personal Portfolio',   'This full-stack portfolio with a contact form, admin dashboard and MySQL database.', 'Node.js, Express, MySQL, JavaScript', 'https://github.com/wasialijunejo/personal-portfolio'),
+  ('Project Two',          'Short description of your second GitHub project.', 'HTML, CSS, JavaScript', 'https://github.com/wasialijunejo/project-two'),
+  ('Project Three',        'Short description of your third GitHub project.',  'Node.js, Express',      'https://github.com/wasialijunejo/project-three'),
+  ('Project Four',         'Short description of your fourth GitHub project.', 'MySQL, Node.js',        'https://github.com/wasialijunejo/project-four'),
+  ('Project Five',         'Short description of your fifth GitHub project.',  'HTML, CSS, Bootstrap',  'https://github.com/wasialijunejo/project-five');
