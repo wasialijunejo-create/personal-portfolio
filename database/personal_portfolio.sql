@@ -89,8 +89,8 @@ INSERT INTO certificates (title, issuer, issue_date, credential_url) VALUES
 
 -- Replace wasialijunejo with your GitHub username (or edit later in the admin dashboard)
 INSERT INTO projects (title, description, tech_stack, repo_url) VALUES
-  ('Personal Portfolio',   'This full-stack portfolio with a contact form, admin dashboard and MySQL database.', 'Node.js, Express, MySQL, JavaScript', 'https://github.com/wasialijunejo/personal-portfolio'),
-  ('Project Two',          'Short description of your second GitHub project.', 'HTML, CSS, JavaScript', 'https://github.com/wasialijunejo/project-two'),
-  ('Project Three',        'Short description of your third GitHub project.',  'Node.js, Express',      'https://github.com/wasialijunejo/project-three'),
-  ('Project Four',         'Short description of your fourth GitHub project.', 'MySQL, Node.js',        'https://github.com/wasialijunejo/project-four'),
-  ('Project Five',         'Short description of your fifth GitHub project.',  'HTML, CSS, Bootstrap',  'https://github.com/wasialijunejo/project-five');
+  ('Personal Portfolio',   'This full-stack portfolio with a contact form, admin dashboard and MySQL database.', 'Node.js, Express, MySQL, JavaScript', 'https://github.com/wasialijunejo-create/personal-portfolio'),
+  ('Project Two',          'Short description of your second GitHub project.', 'HTML, CSS, JavaScript', 'https://github.com/wasialijunejo-create/project-two'),
+  ('Project Three',        'Short description of your third GitHub project.',  'Node.js, Express',      'https://github.com/wasialijunejo-create/project-three'),
+  ('Project Four',         'Short description of your fourth GitHub project.', 'MySQL, Node.js',        'https://github.com/wasialijunejo-create/project-four'),
+  ('Project Five',         'Short description of your fifth GitHub project.',  'HTML, CSS, Bootstrap',  'https://github.com/wasialijunejo-create/project-five');
